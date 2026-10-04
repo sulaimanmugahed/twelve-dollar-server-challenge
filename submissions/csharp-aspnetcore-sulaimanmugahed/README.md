@@ -4,7 +4,7 @@
 |---|---|
 | Language | C# 14 on .NET SDK **10.0.100** |
 | Framework / server | ASP.NET Core 10 Minimal APIs on Kestrel |
-| SQLite driver | `Microsoft.Data.Sqlite` **10.0.0** (`SQLitePCLRaw` bundled native SQLite) |
+| SQLite driver | `Microsoft.Data.Sqlite` **10.0.12** (`SQLitePCLRaw` 2.1.12 bundled native SQLite) |
 | JSON | `System.Text.Json` from .NET 10 |
 | **Nginx or direct** | **Direct**: Kestrel listens on the supplied `HOST:PORT` (normally `0.0.0.0:80`) |
 

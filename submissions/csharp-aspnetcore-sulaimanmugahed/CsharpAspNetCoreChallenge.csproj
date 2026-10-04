@@ -10,7 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <!-- Kept explicit so restores are repeatable and the SQLite provider is version-pinned. -->
-    <PackageReference Include="Microsoft.Data.Sqlite" Version="10.0.0" />
+    <!-- 10.0.12 resolves the patched SQLitePCLRaw 2.1.12 native bundle. -->
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="10.0.12" />
   </ItemGroup>
 </Project>
